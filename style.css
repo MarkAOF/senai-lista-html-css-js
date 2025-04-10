@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(92, 33, 33);
+    color: rgb(225, 225, 225);
+}
+
+h1{
+    text-align: center;
+}
+
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.galeria-item{
+    background-color: rgb(152, 110, 54);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px;
+    
+    text-align: center;
+}
